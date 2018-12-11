@@ -1,18 +1,31 @@
 body{
+    font-family: sans-serif;
     background-color: grey;
 }
 header{
-    background:#32cdc5;
+    background:lightcoral;
     text-align: center;
     height: 80px;
     position: fixed;
-    width: 1600px
+    width: 1600px;
+    
+}
+header figure
+{
+    position: absolute;
+    margin-left: 0px;
+    top :2px;
+
+    float: left;
 }
 li {
     display: inline;
     list-style: none;
     width :10px;
     padding: 10px;
+    color:green;
+    line-height: 50px;
+    
 }
 
 article1
@@ -23,9 +36,7 @@ article1
     float :left;
 
 }
-li{
-    display: inline;
-}
+
 
 article2{
     height: 700px;
@@ -45,8 +56,12 @@ section
     display:flex;
 }
 footer{
+    float: right;
     background-color: black;
-    float: left;
+    width:1600px;
+    height:100px;
+    
+    top:2px;
     
 }
 
