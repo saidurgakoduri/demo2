@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+}
+header{
+    background:#32cdc5;
+    text-align: center;
+    height: 80px;
+    position: fixed;
+    width: 1600px
+}
+li {
+    display: inline;
+    list-style: none;
+    width :10px;
+    padding: 10px;
+}
+
+article1
+{
+    height: 700px;
+    width: 520px;
+    background-color:burlywood;
+    float :left;
+
+}
+li{
+    display: inline;
+}
+
+article2{
+    height: 700px;
+    width: 520px;
+    background-color:pink;
+    float: left;
+}
+article3
+{ 
+    height: 700px;
+    width: 528px;
+    background-color:paleturquoise;
+    float :left;
+}
+section 
+{
+    display:flex;
+}
+footer{
+    background-color: black;
+    float: left;
+    
+}
+
+    
