@@ -1,6 +1,6 @@
 body{
     font-family: sans-serif;
-    background-color: grey;
+    background-color:cornsilk;;
 }
 header{
     background:lightcoral;
@@ -8,13 +8,53 @@ header{
     height: 80px;
     position: fixed;
     width: 1600px;
+    text-transform: uppercase;
+    top:0px;
+    z-index: 1;
     
 }
-header figure
+header figure img{
+    margin-bottom: 1000px;
+    float: left;
+    padding-left:200px;
+    top:0px;
+
+}
+body, html {
+    height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("gold5.jpg");
+
+  /* Set a specific height */
+  height: 80%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+} 
+header img
 {
     position: absolute;
-    margin-left: 0px;
-    top :2px;
+    top :10px;
+    left: 700px;
+
+    
 
     float: left;
 }
@@ -25,6 +65,9 @@ li {
     padding: 10px;
     color:green;
     line-height: 50px;
+    text-transform: uppercase;
+    
+    
     
 }
 
@@ -54,15 +97,20 @@ article3
 section 
 {
     display:flex;
+    
 }
 footer{
+
+    background-color:lightcoral;
+    height:80px;
+    overflow: hidden;
+
+    
+
+    
+}
+footer img{
     float: right;
-    background-color: black;
-    width:1600px;
-    height:100px;
-    
-    top:2px;
-    
 }
 
     
